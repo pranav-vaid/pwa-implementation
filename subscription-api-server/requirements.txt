@@ -1,0 +1,5 @@
+Flask
+setuptools
+flask-mysql
+flask-cors
+flask-restful
