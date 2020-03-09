@@ -1,5 +1,2 @@
-Flask
-setuptools
-flask-mysql
-flask-cors
-flask-restful
+web-push
+node-fetch
