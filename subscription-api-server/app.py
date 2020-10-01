@@ -7,10 +7,13 @@ import json
 app = Flask(__name__)
 api = Api(app)
 
-app.config['MYSQL_USER'] = 'cw1'
-app.config['MYSQL_PASSWORD'] = 'cw1@12345'
+# MySQL user here
+app.config['MYSQL_USER'] = 'db_user'
+# password for above user here
+app.config['MYSQL_PASSWORD'] = 'user_pass'
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_DB'] = 'subscriptions'
+# database here
+app.config['MYSQL_DB'] = 'db_name'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 mysql = MySQL(app)
